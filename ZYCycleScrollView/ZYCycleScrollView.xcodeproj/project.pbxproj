@@ -15,6 +15,7 @@
 		4144FA8D1E250A50001E98D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4144FA8B1E250A50001E98D5 /* LaunchScreen.storyboard */; };
 		4144FA981E250A50001E98D5 /* ZYCycleScrollViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4144FA971E250A50001E98D5 /* ZYCycleScrollViewTests.m */; };
 		4144FAA31E250A50001E98D5 /* ZYCycleScrollViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4144FAA21E250A50001E98D5 /* ZYCycleScrollViewUITests.m */; };
+		4144FAB91E250CD6001E98D5 /* ZYCycleScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4144FAB81E250CD6001E98D5 /* ZYCycleScrollView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		4144FA9E1E250A50001E98D5 /* ZYCycleScrollViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZYCycleScrollViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4144FAA21E250A50001E98D5 /* ZYCycleScrollViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYCycleScrollViewUITests.m; sourceTree = "<group>"; };
 		4144FAA41E250A50001E98D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4144FAB71E250CD6001E98D5 /* ZYCycleScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYCycleScrollView.h; sourceTree = "<group>"; };
+		4144FAB81E250CD6001E98D5 /* ZYCycleScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYCycleScrollView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				4144FA8B1E250A50001E98D5 /* LaunchScreen.storyboard */,
 				4144FA8E1E250A50001E98D5 /* Info.plist */,
 				4144FA7D1E250A50001E98D5 /* Supporting Files */,
+				4144FAB71E250CD6001E98D5 /* ZYCycleScrollView.h */,
+				4144FAB81E250CD6001E98D5 /* ZYCycleScrollView.m */,
 			);
 			path = ZYCycleScrollView;
 			sourceTree = "<group>";
@@ -207,7 +212,7 @@
 				TargetAttributes = {
 					4144FA791E250A50001E98D5 = {
 						CreatedOnToolsVersion = 8.2.1;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 					4144FA921E250A50001E98D5 = {
 						CreatedOnToolsVersion = 8.2.1;
@@ -276,6 +281,7 @@
 				4144FA851E250A50001E98D5 /* ViewController.m in Sources */,
 				4144FA821E250A50001E98D5 /* AppDelegate.m in Sources */,
 				4144FA7F1E250A50001E98D5 /* main.m in Sources */,
+				4144FAB91E250CD6001E98D5 /* ZYCycleScrollView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,7 +430,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = ZYCycleScrollView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ZYCycleScrollView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -435,7 +443,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = ZYCycleScrollView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ZYCycleScrollView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -507,6 +517,7 @@
 				4144FAA91E250A50001E98D5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4144FAAA1E250A50001E98D5 /* Build configuration list for PBXNativeTarget "ZYCycleScrollViewTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +526,7 @@
 				4144FAAC1E250A50001E98D5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4144FAAD1E250A50001E98D5 /* Build configuration list for PBXNativeTarget "ZYCycleScrollViewUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +535,7 @@
 				4144FAAF1E250A50001E98D5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
