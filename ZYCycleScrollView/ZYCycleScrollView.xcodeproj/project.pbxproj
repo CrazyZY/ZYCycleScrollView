@@ -16,6 +16,7 @@
 		4144FA981E250A50001E98D5 /* ZYCycleScrollViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4144FA971E250A50001E98D5 /* ZYCycleScrollViewTests.m */; };
 		4144FAA31E250A50001E98D5 /* ZYCycleScrollViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4144FAA21E250A50001E98D5 /* ZYCycleScrollViewUITests.m */; };
 		4144FAB91E250CD6001E98D5 /* ZYCycleScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4144FAB81E250CD6001E98D5 /* ZYCycleScrollView.m */; };
+		4144FABC1E2515BD001E98D5 /* CycleImageViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4144FABB1E2515BD001E98D5 /* CycleImageViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		4144FAA41E250A50001E98D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4144FAB71E250CD6001E98D5 /* ZYCycleScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYCycleScrollView.h; sourceTree = "<group>"; };
 		4144FAB81E250CD6001E98D5 /* ZYCycleScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYCycleScrollView.m; sourceTree = "<group>"; };
+		4144FABA1E2515BD001E98D5 /* CycleImageViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CycleImageViewCell.h; sourceTree = "<group>"; };
+		4144FABB1E2515BD001E98D5 /* CycleImageViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CycleImageViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +118,8 @@
 				4144FA7D1E250A50001E98D5 /* Supporting Files */,
 				4144FAB71E250CD6001E98D5 /* ZYCycleScrollView.h */,
 				4144FAB81E250CD6001E98D5 /* ZYCycleScrollView.m */,
+				4144FABA1E2515BD001E98D5 /* CycleImageViewCell.h */,
+				4144FABB1E2515BD001E98D5 /* CycleImageViewCell.m */,
 			);
 			path = ZYCycleScrollView;
 			sourceTree = "<group>";
@@ -282,6 +287,7 @@
 				4144FA821E250A50001E98D5 /* AppDelegate.m in Sources */,
 				4144FA7F1E250A50001E98D5 /* main.m in Sources */,
 				4144FAB91E250CD6001E98D5 /* ZYCycleScrollView.m in Sources */,
+				4144FABC1E2515BD001E98D5 /* CycleImageViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
