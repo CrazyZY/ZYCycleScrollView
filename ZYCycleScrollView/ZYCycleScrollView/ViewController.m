@@ -35,6 +35,9 @@
     label.text = @"label";
     [self.view addSubview:label];
     
+    
+    UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
+    
 }
 
 
