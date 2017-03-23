@@ -37,6 +37,7 @@
     
     
     UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
+    [button setBackgroundColor:[UIColor redColor]];
     
 }
 
